@@ -1,0 +1,37 @@
+body {
+  margin: 0px 0px;
+  height: 100vh;
+}
+.chat {
+  margin: 0px 0px;
+  height: 100%;
+}
+.chat-window {
+  height: 70%;
+  border-width: 0.3em;
+  border-style: solid;
+  border-color: blue;
+}
+
+.output {
+  padding: 0px 0.5em;
+  max-height: fit-content;
+}
+
+.output p {
+  border-bottom-style: solid;
+  border-bottom-width: 0.1em;
+  border-bottom-color: red;
+}
+
+input,
+button {
+  display: block;
+  width: 99%;
+  height: 3em;
+  margin: 0.5em 0.2em;
+}
+
+.send {
+  background-color: rgb(69, 69, 212);
+}
